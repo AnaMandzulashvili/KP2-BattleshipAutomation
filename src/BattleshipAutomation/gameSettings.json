@@ -1,0 +1,27 @@
+{
+  "GameSettings": {
+    "BaseUrl": "http://en.battleship-game.org",
+    "BoardSize": 10,
+    "Fleet": [ 5, 4, 3, 3, 2, 2, 1 ],
+    "MinRandomiseClicks": 1,
+    "MaxRandomiseClicks": 15,
+    "Timeouts": {
+      "OpponentWaitSeconds": 180,
+      "TurnWaitSeconds": 120,
+      "ShotResultSeconds": 15,
+      "PageLoadSeconds": 60,
+      "ShotSettleSeconds": 3
+    },
+    "StatusMessages": {
+      "YourTurnFirst": "The game started, your turn.",
+      "YourTurn":      "Your turn.",
+      "OpponentFirst": "The game began, opponent's turn.",
+      "OpponentTurn":  "Opponent's turn, please wait.",
+      "YouWon":        "Game over. Congratulations, you won!",
+      "YouLost":       "Game over. You lose.",
+      "OpponentLeft":  "Your opponent has left the game.",
+      "ServerError":   "Server is unavailable.",
+      "GameError":     "Unexpected error. Further play is impossible."
+    }
+  }
+}
