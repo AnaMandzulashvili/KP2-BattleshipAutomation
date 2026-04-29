@@ -1,0 +1,29 @@
+{
+  "browserName": "chrome",
+  "isElementHighlightEnabled": false,
+  "timeouts": {
+    "timeoutImplicit": 0,
+    "timeoutCondition": 30,
+    "timeoutScript": 10,
+    "timeoutPageLoad": 120,
+    "timeoutPollingInterval": 0.3,
+    "timeoutCommand": 180
+  },
+  "driverSettings": {
+    "chrome": {
+      "webDriverVersion": "Latest",
+      "pageLoadStrategy": "none",
+      "options": {
+        "args": [
+          "start-maximized",
+          "no-sandbox",
+          "disable-dev-shm-usage",
+          "incognito",
+          "disable-renderer-backgrounding",
+          "disable-hang-monitor",
+          "disable-backgrounding-occluded-windows"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.reqnroll.net/reqnroll-config-latest.json",
+  "language": {
+    "feature": "en",
+    "tool": "en"
+  },
+  "runtime": {
+    "stopAtFirstError": false,
+    "missingOrPendingStepsOutcome": "Error"
+  },
+  "trace": {
+    "traceSuccessfulSteps": true
+  }
+}
